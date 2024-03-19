@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata";  
+    }
+    .navbar{
+        position: fixed;
+        width: 100%;
+        background-color: black;
+    }
+    .list{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .list li{
+        padding: 20px 40px;
+    }
+    .list li a:hover{
+        color:black;
+        background-color: white;
+        padding: 20px 40px;
+    }
+
+    .link{
+        text-decoration-line: none;
+        color: white;
+    }
+    .hero{
+    background-image: url(./../img/coffeehouse.jpg);
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    color: white;
+    font-size: 80px;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bottom-text{
+        position: relative;
+    }
+    .bottom-text .parg1{
+        position:absolute;
+        bottom:10px;
+        left: 20px;
+        color: white;
+        width: max-content;
+        background-color: black;
+        padding:2px 5px;
+    }
+    .bottom-text .parg2{
+        position:absolute;
+        bottom:10px;
+        right:20px;
+        color: white;
+    }
+    .search{
+        position:absolute;
+        bottom:130px;
+        right: 400px;
+        width: 500px;
+        padding: 10px;
+    }
+    .search:focus{
+        box-shadow: 0 0 20px rgb(251, 255, 13);
+        outline: none;
+    }
+    .part  {
+        background-color: rgb(230, 227, 227);
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    h3{
+        background-color: black;
+        color: #ffffff;
+        width: max-content;
+        padding:2px ;
+        margin: 50px auto;
+    }
+    .text{
+        background-color: rgb(207, 206, 206);
+        border-left:5px solid gray;
+        width: 650px;
+        margin: 20px auto;
+        padding: 25px ;
+        font-style: italic;
+    }
+    .top{
+        padding-top: 20px;
+    }
+    img{
+        width: 650px;
+    }
+    .box button{
+        width:315px;
+        border:none;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .box{
+        box-shadow: 1px 1px 5px 1px gray;
+        padding: 10px;
+    }
+    .btn1{
+        background-color: rgb(88, 87, 87);
+        color: white;
+    }
+    .big-box{
+        width: 650px;
+    }
+    .big-box h4{
+        padding: 50px 0px 20px 0px;
+    }
+    .bottom {
+        padding-bottom: 50px;
+    }
+    .color{
+        color: rgb(116, 116, 116);
+    }
+    .top .fyi{
+        background-color: black;
+        color: white;
+        padding: 3px;
+    }
+    .left_text{
+        width: 650px;
+        
+    }
+    form input{
+        width: 650px;
+        padding: 15px 10px;
+        margin: 10px 0px;
+    }
+    input.button{
+        background-color: black;
+        color: white;
+        width: 200px;
+        border: none;
+    }
+.button:hover{
+    background-color: rgb(177, 173, 173);
+    color:black;
+    box-shadow: 0 0 20px black;
+    }
+    footer{
+        background-color: rgb(194, 212, 212);
+        height:100px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer a{
+        color: black;
+    }
+    .big{
+        font-weight: bold;
+    }
+    input:focus{
+        box-shadow: 0 0 20px rgb(9, 255, 0);
+        outline: none;
+    }
