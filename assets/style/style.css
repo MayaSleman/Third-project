@@ -67,8 +67,9 @@
         padding: 10px;
     }
     .search:focus{
-        box-shadow: 0 0 20px rgb(251, 255, 13);
+        box-shadow: 0 0 10px rgb(251, 255, 13);
         outline: none;
+        border: none;
     }
     .part  {
         background-color: rgb(230, 227, 227);
@@ -141,7 +142,7 @@
     input.button{
         background-color: black;
         color: white;
-        width: 200px;
+        width:50%;
         border: none;
     }
 .button:hover{
@@ -163,6 +164,7 @@
         font-weight: bold;
     }
     input:focus{
-        box-shadow: 0 0 20px rgb(9, 255, 0);
+        box-shadow: 0 0 10px rgb(9, 255, 0);
         outline: none;
+        border: none;
     }
